@@ -143,7 +143,7 @@ main {
 .top-ban button:hover {
     transition: 0.2s;
     background-color: var(--greyH2);
-
+    /*? color: var(--zapolnitel);  НАДА ЧИ НЕ?  */
 }
 
 /*? о нас */
@@ -153,9 +153,7 @@ main {
     align-items: center;
     flex-direction: column;
     width: 100%;
-
 }
-
 
 .about p {
     width: 80%;
@@ -184,9 +182,6 @@ main {
 .main__title {
     margin: 21px 0 33px 0;
 }
-.main__title h3{
-    font-size: 40px;
-}
 
 /*? Комнаты */
 .rooms {
@@ -195,7 +190,6 @@ main {
     align-items: center;
     flex-direction: column;
 }
-
 
 .rooms .container {
     display: grid;
@@ -255,14 +249,16 @@ main {
     flex-direction: column;
 
 }
-.about h2{
-    font-size: 20px;
-    font-weight: 600;
-}
+
 .specEvent .main__title {
     font-weight: 500;
 }
 
+.slider__specEvent {}
+
+.sliderButton {}
+
+.left {}
 
 .specEvent>img {
     border-radius: 100px;
@@ -329,13 +325,24 @@ main {
     width: 70%;
 }
 
+.map
 
 /*? Footer */
 
 
-
-
 /*! Media  */
+/* TODO Надо сделать))) */
+@media (min-width: 1800px) {
+    header {
+        width: 100vw;
+    }
+
+    .top-ban__img-mobile {
+        display: none;
+    }
+
+}
+
 @media (max-width:1500px) {
     header {
         margin: 0;
